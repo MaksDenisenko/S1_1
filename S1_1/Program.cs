@@ -13,7 +13,8 @@ namespace S1_1
             {
                 Console.WriteLine(i + " " + b);
                 
-                b += 2;
+                b += 2; 
+
             }
         }
     }
