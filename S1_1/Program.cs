@@ -7,11 +7,13 @@ namespace S1_1
      
         public static void Main(string[] args)
         {
-            int a = 1;
+            int a = 10;
+            int b = 2;
             for (int i = 0; i < a; i++)
             {
-                Console.WriteLine(i);
-                a++;
+                Console.WriteLine(i + " " + b);
+                
+                b += 2;
             }
         }
     }
